@@ -1,0 +1,38 @@
+Simple K Means Clustering Output
+=== Run information ===
+Scheme:weka.clusterers.SimpleKMeans
+ -N 2 -A "weka.core.EuclideanDistance
+ -R first-last" -I 500 -S 10
+Relation: train4-weka.filters
+ .unsupervised.attribute
+.Remove-R1,3,6,8
+Instances: 891
+Attributes: 5
+ Survived
+ Class
+ Sex
+ AgeGroup
+ Embarked
+Test mode:evaluate on training data
+=== Model and evaluation on training set ===
+kMeans
+======
+Number of iterations: 3
+Within cluster sum of squared errors: 1185.0
+Missing values globally replaced with mean/mode
+Cluster centroids:
+ Cluster#
+Attribute Full Data 0 1
+ (891) (610) (281)
+=============================================
+Survived No No Yes
+Class 3rd 3rd 1st
+Sex male male female
+AgeGroup Adult Adult Adult
+Embarked Southampton Southampton Southampton
+Time taken to build model
+(full training data) : 0.01 seconds
+=== Model and evaluation on training set ===
+Clustered Instances
+0 610 ( 68%)
+1 281 ( 32%)

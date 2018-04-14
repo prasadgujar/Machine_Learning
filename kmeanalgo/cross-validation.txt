@@ -1,0 +1,25 @@
+=== Stratified cross-validation === 
+=== Summary ===
+Correctly Classified Instances 722
+81.0325 %
+Incorrectly Classified Instances 169
+18.9675 %
+Kappa statistic 0.5714
+Mean absolute error 0.2911
+Root mean squared error 0.385
+Relative absolute error 61.5359 %
+Root relative squared error 79.1696 %
+Total Number of Instances 891
+=== Detailed Accuracy By Class ===
+ TP Rate FP Rate Precision Recall
+ 0.953 0.418 0.785 0.953
+ 0.582 0.047 0.884 0.582
+W.Avg. 0.81 0.276 0.823 0.81
+F-Measure ROC Area Class
+0.861 0.783 No
+0.702 0.783 Yes
+0.8 0.783
+=== Confusion Matrix ===
+ a b <-- classified as
+523 26 | a = No
+143 199 | b = Yes
